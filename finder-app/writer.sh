@@ -2,6 +2,7 @@
 if [ $# -ne 2 ]; then
  echo "Error:two argumentsrequired"
  echo "usage:$0 <writefile> <writestr>"
+ exit 1
  fi
  
  writefile="$1"
